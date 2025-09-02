@@ -5,40 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons&2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-   <div class="main">
-    <div class="navbar">
-        <img src="logo.png" class="logo">
+   <nav>
+    <a href="#" class="logo"><span>Nathalia</span></a>
 
 
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">MY WORK</a></li>
-            <li><a href="#">CONTACT</a></li>
-            
+        <ul class="links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
         </ul>
-    </div>
-    <div class="info">
-        <h2> Hi, I'm <span>Nathalia</span>.</h2>
+
+        <i class="bx  bx-menu-alt-right" id="menu"></i>
+
+        <a href="#contact" class="btn">contact Me</a>
+    </nav> 
+   
+   <section id="home">
+    <img src="IMG_20250829_081433_657.jpg" alt="">
+
+    <div class="info-box">
+        <h2> Hello, I'm Nathalia</h2>
         <h1><span>W</span>EB <span>A</span>ND <span>G</span>RAPHIC <Span>D</Span>ESIGNER</h1>
         <h3>Web designer, developer and graphic designer from Cameroon. 
             <br>I create wesites and also design professional logos for businesses.</h3>
             <a href="#">Hire Me</a>
     </div>
-
-    <div class="image">
-        <img src="IMG-20240831-WA0038_2-removebg-preview.png" class="IMG">
+    <div class="btn-box">
+        <div class="btn">Hire</div>
+        <div class="btn">Contact Me</div>
     </div>
 
-    <div. class="icons">
-        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
-    </div.>
-   </div>
-   <script src="https://unpkg.com/ionicons&5.4.0/dist/ionicons.js"></script>
+   </section>>
+
+   <section id="about">
+    <div class="about-box">
+        <div class="about-info">
+            <h1><span>About Me</span></h1>
+            <p>I am a software engineering student at the catholic university of Cameroon Bamenda.
+                I design and create responsive websits for people to showcase their products and I am
+                also a graphic designer.
+            </p>
+        </div>
+
+        <h2><span>Skills</span></h2>
+
+        <div class="skills">
+            <ul>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>HTML</span>
+                </li>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>CSS</span>
+                </li>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>JavaScript</span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>React</span>
+                </li>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>Node</span>
+                </li>
+                <li>
+                    <span><span><i class='bx
+                    bx-chevron-right' ></i>MySql</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <img src="IMG-20240831-WA0038_2-removebg-preview.png" alt="">
+   </section>
+
+   <section id="services">
+    <h1 class="header"><span>services</span></h1>
+    <div class="services-container">
+        <div class="box">
+            <h3><span>Web Design</span></h3>
+            <p>Transforming ideas into visually stunning,
+                 user-centric experiences. My designs blend creativity with functionality, 
+                 crafting intuitive interfaces that captivate and engage audiences across all devices.</p>
+            <img src="" alt="">
+        </div>
+        <div class="box">
+            <h3><span>Web Development</span></h3>
+            <p>Building the digital world, one line of code at a time. 
+                I create robust, scalable, and seamless websites that bring 
+                ideas to life with precision and performance at their core</p>
+            <img src="" alt="">
+        </div>
+        <div class="box">
+            <h3><span>Graphic Design</span></h3>
+            <p>Crafting bold visuals that tell stories and spark emotions. 
+                My graphic designs fuse creativity and strategy to deliver 
+                memorable brand identities and impactful imagery</p>
+            <img src="" alt="">
+        </div>
+    </div>
+   </section>
+
+
+  
+    
+
+    
    </body>
    </html>
